@@ -1,0 +1,22 @@
+h1 { 
+	font-family: monospace, sans-serif;
+	color: darkseagreen;
+	font-weight: bold;
+ }
+
+ h2 {
+ 	font-family: monospace, sans-serif;
+ 	color: darkgrey;
+ 	font-weight: normal;
+ }
+
+ h3 {
+ 	font-family: monospace, sans-serif;
+ 	color: lightgrey;
+ 	font-weight: lighter;
+ }
+
+ body {
+ 	font-family: monospace, sans-serif;
+ 	background-color: darkslategrey;
+ }
