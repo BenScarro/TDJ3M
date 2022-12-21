@@ -1,0 +1,74 @@
+div#head {
+	height: 100px;
+	border: 3px solid darkslategrey;
+	background-color: grey;
+	text-align: center;
+	border-radius: 10px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+img#logo {
+	height: 100px;
+}
+
+div#menu {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-around;
+	height: 20px;
+	border: 2px solid darkred;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+div.menuitem {
+	padding: 3px;
+}
+
+div.menuitem a {
+	color: darkred;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+div#intro {
+	border: 2px solid darkred;
+	background-image: linear-gradient(to bottom, white, white, white, white, darkred);
+	border-radius: 10px;
+	text-align: center;
+}
+
+div#intro h1 {
+	color: darkred;
+	font-family: monospace;
+}
+
+div#maincontenu {
+	color: darkred;
+	text-align: center;
+	border: 2px solid darkred;
+	background-image: linear-gradient(to bottom, white, white, white, white, white, white, darkred);
+	border-radius: 10px;
+	padding: 30px;
+	font-family: monospace;
+
+}
+
+.gallery {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	gap: 10px 20px;
+}
+			
+.galleryItem  {
+	width: calc((100% / 3) - 20px);
+	min-width: 200px;
+}
+			
+.galleryItem img { width: 100%; }
